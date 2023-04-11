@@ -28,21 +28,21 @@ Taxi service is a small demo application where you can register and execute the 
 <pre>
 ├───java 
 │   └───taxi 
-│       ├───controller                    - Controllers in which user requests are processed 
+│       ├───controller                   - Controllers in which user requests are processed 
 │       │   ├───car 
 │       │   ├───driver 
 │       │   └───manufacturer 
-│       ├───exception                     - Custom exceptions 
-│       ├───lib                           - Annotations and an injector that initialises our fields 
-│       ├───model                         - Project models 
-│       ├───service                       - The service level is intended for the operation of business logic 
-│       ├───util                          - Connection to the database 
-│       └───web                           - Filter for authorisation 
+│       ├───exception                    - Custom exceptions 
+│       ├───lib                          - Annotations and an injector that initialises our fields 
+│       ├───model                        - Project models 
+│       ├───service                      - The service level is intended for the operation of business logic 
+│       ├───util                         - Connection to the database 
+│       └───web                          - Filter for authorisation 
 │           └───filter 
-├───resources                             - SQL script for creating schema 
-└───webapp                                - UI part of project
+├───resources                            - SQL script for creating schema 
+└───webapp                               - UI part of project
     └───WEB-INF
-        └───views                         - All page preferences
+        └───views                        - All page preferences
             ├───cars
             │   └───drivers
             ├───css
